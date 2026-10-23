@@ -19,10 +19,10 @@ let bbChart = null;
  */
 async function initChart() {
   const files = [
-    { scenario: '0.5 Ft', url: 'data/reduced_data/econLoss_0ft.json' },
-    { scenario: '1.1 Ft', url: 'data/reduced_data/econLoss_1ft.json' },
-    { scenario: '2.0 Ft', url: 'data/reduced_data/econLoss_2ft.json' },
-    { scenario: '3.2 Ft', url: 'data/reduced_data/econLoss_3ft.json' },
+    { scenario: '0.5 Ft', url: 'data/econLoss_0ft.json' },
+    { scenario: '1.1 Ft', url: 'data/econLoss_1ft.json' },
+    { scenario: '2.0 Ft', url: 'data/econLoss_2ft.json' },
+    { scenario: '3.2 Ft', url: 'data/econLoss_3ft.json' },
   ];
 
   for (const file of files) {

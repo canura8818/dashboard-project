@@ -9,10 +9,10 @@
  */
 function loadErosionLine(map) {
   const scenarios = [
-    { id: 'worstcase', url: 'data/reduced_data/coastalErosion_3.2Ft.json' },
-    { id: 'badcase', url: 'data/reduced_data/coastalErosion_2Ft.json' },
-    { id: 'goodcase', url: 'data/reduced_data/coastalErosion_1.1Ft.json' },
-    { id: 'bestcase', url: 'data/reduced_data/coastalErosion_0.5Ft.json' },
+    { id: 'worstcase', url: 'data/coastalErosion_3.2Ft.json' },
+    { id: 'badcase', url: 'data/coastalErosion_2Ft.json' },
+    { id: 'goodcase', url: 'data/coastalErosion_1.1Ft.json' },
+    { id: 'bestcase', url: 'data/coastalErosion_0.5Ft.json' },
   ];
 
   scenarios.forEach((scenario) => {
@@ -43,10 +43,10 @@ function loadErosionLine(map) {
  */
 function loadEconLoss(map) {
   const scenarios = [
-    { id: 'worstcase', url: 'data/reduced_data/econLoss_3ft.json', color: '#eb1004' },
-    { id: 'badcase', url: 'data/reduced_data/econLoss_2ft.json', color: '#ff7300' },
-    { id: 'goodcase', url: 'data/reduced_data/econLoss_1ft.json', color: '#f8e800' },
-    { id: 'bestcase', url: 'data/reduced_data/econLoss_0ft.json', color: '#2cff02' },
+    { id: 'worstcase', url: 'data/econLoss_3ft.json', color: '#eb1004' },
+    { id: 'badcase', url: 'data/econLoss_2ft.json', color: '#ff7300' },
+    { id: 'goodcase', url: 'data/econLoss_1ft.json', color: '#f8e800' },
+    { id: 'bestcase', url: 'data/econLoss_0ft.json', color: '#2cff02' },
   ];
 
   scenarios.forEach((scenario) => {
